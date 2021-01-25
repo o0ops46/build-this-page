@@ -125,13 +125,16 @@ table {
 header {
   display: flex;
   color: #5f6368;
-  align-items: baseline;
+  margin-top: 20px;
+  align-items: flex-start;
 }
 .google-logo img {
   width: 90px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .search {
-  margin-left: 50px;
+  margin-left: 30px;
   color: #5f6368;
 }
 .search input {
@@ -144,6 +147,35 @@ header {
 
 .avatar {
   border-radius: 50%;
+  height: 30px;
 }
-body > header > div.search > i.fas.first-search.fa-search {
+i.fas.first-search.fa-search {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+div.search > i.fas.fa-times {
+  padding-left: 450px;
+  position: absolute;
+  padding-top: 10px;
+}
+i.fa-microphone {
+  position: absolute;
+  padding-left: 480px;
+  padding-top: 10px;
+}
+i.second-search {
+  position: absolute;
+  padding-left: 510px;
+  padding-top: 10px;
+}
+.right-items {
+  margin-left: 560px;
+  display: flex;
+  justify-content: center;
+}
+
+i.fa-th {
+  margin-right: 10px;
+  margin-top: 8px;
 }
