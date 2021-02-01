@@ -204,7 +204,31 @@ hr {
   color: rgb(238, 234, 234);
 }
 .search-result {
-  margin-top: 20px;
-  margin-left: 140px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 15px;
   color: grey;
+}
+.adverts {
+  margin-left: auto;
+}
+.advert {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  line-height: 1.6;
+  color: grey;
+}
+.ad-description {
+  margin-bottom: 30px;
+}
+.wix {
+  font-weight: 700;
+}
+.title {
+  color: #1a0dab;
+  font-size: 20px;
+}
+.bold {
+  color: black;
 }
